@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
+.brand{
+    font-family: "Edu AU VIC WA NT Hand";
+}
+.registered{
+    display: none;
+}
+
+/* login and register pages  */
+.form{
+    height: 100vh;
+}
+.form-container{
+    background: #ffffff;
+    padding: 50px 70px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+}
+.submit{
+    border: none;
+    padding: 5px 16px;
+    background: #ff6633;
+    color: #fff;
+    border-radius: 4px;
+    transition: .3s;
+}
+.submit:hover{
+    opacity: .7;
+}
+.have-acc a{
+    color: #ff6633;
+    text-decoration: none;
+}
+@media (max-width: 676px) {
+    .form-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.login{
+    background-color: #fff;
+    border: 2px solid #ff6633;
+    color: #ff6633 !important;
+    padding: 0px 16px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.login:hover{
+    background-color: #ff6633;
+    border: 2px solid #ff6633;
+    color: #fff !important;
+    padding: 0px 16px;
+}
+.register{
+    background-color: #ff6633;
+    color: #fff !important;
+    padding: 2px 16px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.register:hover{
+    opacity: .7;
+}
+
+/* profile page */
+.profile img{
+    max-width: 350px;
+    max-height: 350px;
+    height: 100%;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+}
+.profile .info .name{
+    text-transform: capitalize;
+}
+.profile .info .actions button,
+.profile .info .pass button,
+.profile .info .update button{
+    border: none;
+    padding: 5px 16px;
+    color: #fff;
+    border-radius: 4px;
+    transition: .3s;
+}
+.profile .info .actions button:hover,
+.profile .info .pass button:hover,
+.profile .info .update button:hover{
+    opacity: .7;
+}
+.profile .info .actions .edit{
+    background: #4CAF50;
+}
+.profile .info .pass .submit,
+.profile .info .update button{
+    background: #2196F3;
+}
+.profile .info .actions .delete,
+.profile .info .pass .close{
+    background: var(--main-color);
+}
+.profile .info .pass,
+.profile .info .update{
+    display: none;
+}
+.profile-head {
+    font-size: 16px;
+}
+.profile-head a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.profile-head p{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.profile-head p span{
+    width: 5px;
+    height: 5px;
+    background-color: var(--main-color);
+    border-radius: 50%; 
+    margin: 0 3px 3px 0;
+}
+
+/* alert */
+.swal2-confirm{
+    background-color: var(--main-color);
+    transition: .3s;
+}
+.swal2-confirm:hover{
+    background-color: #2196F3;
+}

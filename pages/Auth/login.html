@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce | Login</title>
+
+    <!-- css files  -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./auth.css">
+
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- start header  -->
+    <header class="head">
+        <div class="container d-flex justify-content-between align-items-center p-2">
+            <h4 class="brand"><a href="/">Shoopy!</a></h4>
+            <nav class="links">
+                <div class="unregistered">
+                    <ul class="d-flex">
+                        <li><a href="./login.html" class="login">Login</a></li>
+                        <li><a href="./register.html" class="register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="registered">
+                    <ul class="d-flex">
+                        <li><a href="#" class="username">Name</a></li>
+                        <li><a href="#" class="logout">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start form  -->
+    <section class="form d-flex flex-column justify-content-center align-items-center text-center container">
+        <div class="form-container">
+            <h3 class="mb-4">Welcome Back!</h3>
+            <form action="" novalidate>
+                <input class="email form-control mb-3" type="email" placeholder="Your Email..">
+                <input class="password form-control mb-3" type="password" placeholder="Password..">
+                <button class="submit mb-3 w-100" type="submit">Login</button>
+            </form>
+            <p class="have-acc mt-3">Haven't an Account? <a href="./register.html">Create Account</a></p>
+        </div>
+    </section>
+    <!-- end form  -->
+
+    <!-- sweet alert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap js file  -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- login js file  -->
+    <script src="./login.js"></script>
+
+</body>
+</html>

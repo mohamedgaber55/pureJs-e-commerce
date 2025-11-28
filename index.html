@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <!-- main css file and font awesome  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start-header  -->
+        <header class="head">
+        <div class="container p-1 d-flex justify-content-between align-items-lg-center">
+            <h4 class="brand text-center p-1"><a href="/">Shooopy!</a></h4>
+            <div></div>
+            <div class="d-flex justify-content-between align-items-center mx-2 py-2">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search-item" type="search" placeholder="Search for products.."/>
+                </div>
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <nav class="links">
+                <div class="unregistered p-2">
+                    <ul class="d-flex justify-content-center align-items-center">
+                        <li class="login"><a href="./pages/Auth/login.html">Login</a></li>
+                        <li class="register"><a href="./pages/Auth/register.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="registered position-relative align-items-center">
+                    <ul class="d-flex gap-2 align-items-center">
+                        <li class="head-fav position-relative"><a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                            <span class="position-absolute text-center"></span>
+                        </a></li>
+                        <li class="head-cart me-2 position-relative"><a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="position-absolute text-center"></span>
+                        </a></li>
+                        <li>
+                            <div class="user-info d-flex flex-column align-items-center">
+                                <img src="./imgs/user.png" alt="user-img">
+                                <p class="username">Name</p>
+                            </div>
+                        </li>
+                        <li><a href="#" class="logout">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </header>
+    <!-- start fav and cart deopdown  -->
+        <div>
+            <div class="cart-dropdown p-2">
+                <div class="cart-items"></div>
+                <button type="button"><a href="./pages/Website/cart.html">View All in Cart</a></button>
+            </div>
+            <div class="fav-sidebar text-center p-2">
+                <div class="fav-items position-relative">
+                    <div class="fav-side-head d-flex justify-content-between">
+                        <h6>Your Wishlist</h6>
+                        <span class="close-icon">X</span>
+                    </div>
+                    <div class="fav-products mt-2"></div>
+                </div>
+            </div>
+        </div>
+    <!-- end fav and cart deopdown  -->
+    <!-- end-header  -->
+
+    <!-- start carousel  -->
+    <div id="carouselExampleIndicators" 
+            class="carousel slide" 
+            data-bs-ride="carousel"
+            data-bs-interval="2500"
+            >
+
+        <div div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+                    aria-label="Slide 3"></button>
+        </div>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="/imgs/slide-1.webp" class="d-block w-100" alt="">
+            <div class="carousel-caption custom-center">
+            <h2>Latest Gadgets</h2>
+            <p>Explore top-quality electronics with unbeatable offers and innovations</p>
+            <button class="shop">Shop Now</button>
+        </div>
+        </div>
+        
+        <div class="carousel-item">
+            <img src="/imgs/slider-2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption custom-center">
+                <h2>Make Your Home Cozy</h2>
+                <p>Discover the finest furniture and daily essentials for ultimate comfort</p>
+                <button class="shop">Shop Now</button>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <img src="/imgs/slider-3.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption custom-center">
+                <h1>Trendy Styles</h1>
+                <p>Find stylish outfits and accessories for every occasion and taste</p>
+                <button class="shop">Shop Now</button>
+        </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+    </div>
+    <!-- end carousel  -->
+
+    <!-- start-features -->
+    <section class="features container py-5">
+        <div class="feat text-center p-3">
+            <i class="fa-solid fa-truck-fast my-3"></i>
+            <div class="text">
+                <h5>Free Shipping</h5>
+                <p>Free shipping on all US order or order above $20</p>
+            </div>
+        </div>
+        <div class="feat text-center p-3">
+            <i class="fa-solid fa-hand-holding-hand my-3"></i>
+            <div class="text">
+                <h5>24X7 Support</h5>
+                <p>Contact us 24 hours live support, 7 days in a week</p>
+            </div>
+        </div>
+        <div class="feat text-center p-3">
+            <i class="fa-regular fa-hand-point-left my-3"></i>
+            <div class="text">
+                <h5>30 Days Return</h5>
+                <p>Simply return it within 30 days for an exchange</p>
+            </div>
+        </div>
+        <div class="feat text-center p-3">
+            <i class="fa-solid fa-hand-holding-dollar my-3"></i>
+            <div class="text">
+                <h5>Payment Secure</h5>
+                <p>Contact us 24 hours live support, 7 days in a week</p>
+            </div>
+        </div>
+    </section>
+    <!-- end-features -->
+
+    <!-- start products  -->
+    <section class="products-section pb-5" id="products">
+            <div class="container">  
+                <ul class="filter-products d-flex gap-2 text-center">
+                    <li class="filter-active">All</li>
+                    <li>Electronics</li>
+                    <li>Furniture</li>
+                    <li>Clothes</li>
+                </ul>
+                <div class="products container mt-5"></div>
+            </div>
+        
+    </section>
+    <!-- end products  -->
+
+    <section class="my-5 pb-5 mx-2">
+        <div class="subscribe container text-center py-5 d-flex flex-column align-items-center">
+            <div class="text">
+                <h1>Get <span> 20% </span> Discount Coupon</h1>
+                <h5 class="mb-5">By Subscribe Our Newsletter</h5>
+                <div class="content d-flex align-items-center justify-content-between">
+                    <input type="text" class="ms-2" placeholder="Your Email Adress">
+                    <a href="/">Subscribe <i class="fa-regular fa-paper-plane ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start-footer  -->
+    <footer>
+        <div class="footer container py-5 mb-3">
+            <div>
+                <h4 class="brand p-1">Shooopy!</h4>
+                <p class="desc">We are many variations of the passages available but the majoro have suffered alteration injected.</p>
+            </div>
+            <div>
+                <h5 class="fw-bold">Account</h5>
+                <ul class="p-0 m-o">
+                    <li class="m-1">- My Account</li>
+                    <li class="m-1">- Login / Register</li>
+                    <li class="m-1">- Cart</li>
+                    <li class="m-1">- Wishlist</li>
+                    <li class="m-1">- Shop</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="fw-bold">Quick Links</h5>
+                <ul>
+                    <li class="m-1">- Home</li>
+                    <li class="m-1">- Features</li>
+                    <li class="m-1">- Products</li>
+                    <li class="m-1">- Wishlist</li>
+                    <li class="m-1">- Subscribe</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="fw-bold">Address & Contact</h5>
+                <ul>
+                    <li class="m-1">- Egypt - Cairo - Salah Salem Street</li>
+                    <li class="m-1">+0111 222 3344</li>
+                    <li class="m-1">+0111 222 3344</li>
+                </ul>
+                <div>
+                    <p class="fw-bold mb-0 mt-2 mb-1">We Accept :</p>
+                    <div class="d-flex gap-1">
+                        <img src="./imgs/visa.svg" alt="">
+                        <img src="./imgs/amex.svg" alt="">
+                        <img src="./imgs/discover.svg" alt="">
+                        <img src="./imgs/mastercard.svg" alt="">
+                        <img src="./imgs/paypal.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="developer">© 2025 Coded By <span>Mohamed Gaber</span></p>
+    </footer>
+    <!-- end-footer  -->
+
+    <!-- sweet alert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap js file  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- data js file  -->
+    <script src="/products.js"></script>
+    <!-- main js file -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

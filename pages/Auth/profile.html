@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce | Profile</title>
+
+    <!-- main css file and font awesome  -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- start profile  -->
+    <section class="profile py-5 container">
+        <div class="profile-head d-flex">
+            <a href="/index.html" class="me-3">Home</a>
+            <p><span class="d-inline-block"></span>User Profile</p>
+        </div>
+        <div class="profile-content mt-5 d-flex flex-wrap justify-content-center justify-content-sm-start">
+            <img src="/imgs/user.png" alt="user-profile" class="image">
+            <div class="info mx-2 mx-sm-3 mx-lg-5 my-2 my-sm-3 my-lg-0"> 
+                <h4 class="name">Your Name: Mohamed Gaber</h4>
+                <p class="mail">Your Email: mohamed@mail.com</p>
+                <div class="actions">
+                    <button class="edit">Edit Profile</button>
+                    <button class="delete">Delete Account</button>
+                </div>
+                <div class="pass mt-5">
+                    <input class="old-pass form-control mb-2" type="text" placeholder="Enter Old Password..">
+                    <button class="submit" type="submit">Submit</button>
+                    <button class="close" type="submit">Close</button>
+                </div>
+                <div class="update mt-5">
+                    <input class="name form-control mb-2" type="text" placeholder="New Name..">
+                    <input class="email form-control mb-2" type="email" placeholder="New Email..">
+                    <input class="password form-control mb-2" type="password" placeholder="New Password..">
+                    <input class="image form-control mb-2" type="file" placeholder="New Password..">
+                    <button class="submit" type="submit">Update</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end profile  -->
+
+    <!-- sweet alert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap js file  -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <!-- js file  -->
+    <script src="./profile.js"></script>
+
+</body>
+</html>
