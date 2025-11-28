@@ -42,7 +42,7 @@ updateUI();
 
 // handle user profile path
 let uesrInfo = document.querySelector('.user-info');
-uesrInfo.onclick = () => window.location.href = '../profile.html'
+uesrInfo.onclick = () => window.location.href = 'profile.html'
 
 
 // handle logout
