@@ -66,7 +66,7 @@ function productsMap(data){
                     <div class='text-center'>
                         <span class='position-absolute'>${product.category}</span>
                     </div>
-                    <img src="${product.image}" alt="bag-image"/>
+                    <img src="${product.image}" alt="product-image"/>
                     </div>
                     <div class='product-actions text-center d-flex justify-content-center align-items-center'>
                         <div class='text-center d-flex justify-content-center align-items-center'>
