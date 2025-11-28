@@ -187,7 +187,7 @@ function addToCart(id){
         filterProducts(id);
     }
     else{
-        window.location.href = 'pages/Auth/login.html'
+        window.location.href = 'login.html'
     }
 
 } 
