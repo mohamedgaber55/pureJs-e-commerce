@@ -329,7 +329,7 @@ function addToFav(id){
         addToFavFilteration(id);
     }
     else{
-        window.location.pathname = '../pages/Auth/login.html';
+        window.location.pathname = './login.html';
     }
 
 }
