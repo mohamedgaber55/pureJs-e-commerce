@@ -21,7 +21,7 @@ function handleUserProfile(){
         profileImg.src = localUserImg;
     } 
     else {
-        profileImg.src = '/imgs/user.png';
+        profileImg.src = 'imgs/user.png';
     }
 
 }
@@ -71,7 +71,7 @@ deleteAccBtn.addEventListener('click', ()=> {
             localStorage.clear()
 
             setTimeout(() => {
-                window.location.pathname = './index.html';
+                window.location.href = 'index.html';
             }, 1500);
         }
     });

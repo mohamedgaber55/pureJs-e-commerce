@@ -39,7 +39,7 @@ submit.onclick = function(e) {
             }
         }
         setTimeout(() =>{
-            window.location.pathname='./login.html';
+            window.location.href = 'login.html';
         } ,1500);
     }
 }

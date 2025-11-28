@@ -614,7 +614,7 @@ header .search-container i{
 
 /* subscribe  */
 .subscribe{
-    background-image: url('../imgs/subscribe.jpg');
+    background-image: url(../imgs/subscribe.jpg);
     background-size: cover;
     border-radius: 20px;
     position: relative;

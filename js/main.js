@@ -42,7 +42,7 @@ updateUI();
 
 // handle user profile path
 let uesrInfo = document.querySelector('.user-info');
-uesrInfo.onclick = () => window.location.pathname = '../pages/Auth/profile.html'
+uesrInfo.onclick = () => window.location.href = '../profile.html'
 
 
 // handle logout
@@ -99,7 +99,7 @@ productsMap(theProducts);
 // function for single product details
 function singleProductDetails(id){
     localStorage.setItem('productId', id)
-    window.location.pathname = "../productDetails.html"
+    window.location.href = 'productDetails.html'
 }
 
 // get the div that contain cart products & badge & cart icon
@@ -187,7 +187,7 @@ function addToCart(id){
         filterProducts(id);
     }
     else{
-        window.location.pathname = '../pages/Auth/login.html';
+        window.location.href = 'pages/Auth/login.html'
     }
 
 } 

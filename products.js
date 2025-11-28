@@ -2,7 +2,7 @@ const products = [
         {
         "id": 1,
         "name": "Brown Chair",
-        "image": "./imgs/watch.jpg",
+        "image": "imgs/watch.jpg",
         "description": "An Elegant Chair",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Furniture',
@@ -12,7 +12,7 @@ const products = [
     {
         "id": 2,
         "name": "Women's Shirt",
-        "image": "./imgs/dress.png",
+        "image": "imgs/dress.png",
         "description": "Gorgeous Women's Shirt",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Clothes',
@@ -22,7 +22,7 @@ const products = [
     {
         "id": 3,
         "name": "Watch",
-        "image": "./imgs/watch.jpg",
+        "image": "imgs/watch.jpg",
         "description": "Smart Watch",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Electronics',
@@ -32,7 +32,7 @@ const products = [
     {
         "id": 4,
         "name": "Earbuds",
-        "image": "./imgs/earbuds.png",
+        "image": "imgs/earbuds.png",
         "description": "Bady Blue Earbuds",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Electronics',
@@ -42,7 +42,7 @@ const products = [
     {
         "id": 5,
         "name": "T-Shirt",
-        "image": "./imgs/t-shirt.png",
+        "image": "imgs/t-shirt.png",
         "description": "Children's T-Shirt",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Clothes',
@@ -52,7 +52,7 @@ const products = [
     {
         "id": 6,
         "name": "Women's Shoes",
-        "image": "./imgs/women's-shoes.png",
+        "image": "imgs/women's-shoes.png",
         "description": "Beautiful Women's Shoes",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Clothes',
@@ -62,7 +62,7 @@ const products = [
     {
         "id": 7,
         "name": "Blue Chair",
-        "image": "./imgs/chair.png",
+        "image": "imgs/chair.png",
         "description": "A Sturdy Chair",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Furniture',
@@ -72,7 +72,7 @@ const products = [
     {
         "id": 8,
         "name": "Phone",
-        "image": "./imgs/phone.png",
+        "image": "imgs/phone.png",
         "description": "Apple Phone",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Electronics',

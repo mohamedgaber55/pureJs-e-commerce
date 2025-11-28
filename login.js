@@ -21,7 +21,7 @@ function handleLogin(e){
         unregistered.style.display =  'none';
         username.innerHTML = localStorage.getItem('name');
         setTimeout(() =>{
-            window.location.pathname='./index.html'
+            window.location.href = 'index.html'; 
         } ,1500)
     }
     else{
@@ -33,4 +33,5 @@ logout.addEventListener('click', function() {
     localStorage.clear();
     unregistered.style.display =  'block';
     registered.style.display =  'none';
+    window.location.href = 'index.html';
 })
