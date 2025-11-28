@@ -2,7 +2,7 @@ const products = [
         {
         "id": 1,
         "name": "Brown Chair",
-        "image": "imgs/chair-2.jpg",
+        "image": "imgs/chair-2.png",
         "description": "An Elegant Chair",
         "about" : 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit sed alias dicta provident? Obcaecati, natus. Nihil inventore et totam illum, eum magnam. Quaerat esse tempore corporis odit similique minus!',
         "category" : 'Furniture',
