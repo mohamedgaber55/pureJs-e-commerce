@@ -99,7 +99,7 @@ productsMap(theProducts);
 // function for single product details
 function singleProductDetails(id){
     localStorage.setItem('productId', id)
-    window.location.pathname = `../productDetails.html`
+    window.location.pathname = "../productDetails.html"
 }
 
 // get the div that contain cart products & badge & cart icon

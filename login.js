@@ -21,7 +21,7 @@ function handleLogin(e){
         unregistered.style.display =  'none';
         username.innerHTML = localStorage.getItem('name');
         setTimeout(() =>{
-            window.location.pathname='/'
+            window.location.pathname='./index.html'
         } ,1500)
     }
     else{

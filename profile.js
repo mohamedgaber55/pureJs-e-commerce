@@ -71,7 +71,7 @@ deleteAccBtn.addEventListener('click', ()=> {
             localStorage.clear()
 
             setTimeout(() => {
-                window.location.pathname = '/';
+                window.location.pathname = './index.html';
             }, 1500);
         }
     });
@@ -137,7 +137,7 @@ function newData(){
             reader.readAsDataURL(file);
         }
 
-        // ========= save text data =========
+        // save text data 
         localStorage.setItem('userName', newName.value);
         localStorage.setItem('userEmail', newEmail.value);
         localStorage.setItem('userPassword', newPassword.value);
